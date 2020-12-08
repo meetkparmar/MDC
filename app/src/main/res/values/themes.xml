@@ -13,4 +13,21 @@
         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
     </style>
+
+    <style name="Button.Outlined" parent="TextButton">
+        <item name="android:paddingLeft">@dimen/padding_8dp</item>
+        <item name="android:paddingRight">@dimen/padding_8dp</item>
+        <item name="strokeColor">@color/colorPrimaryLight</item>
+        <item name="strokeWidth">1dp</item>
+    </style>
+
+    <style name="TextButton">
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:paddingLeft">@dimen/margin_8dp</item>
+        <item name="android:paddingRight">@dimen/margin_8dp</item>
+        <item name="iconTint">@color/white</item>
+        <item name="iconPadding">@dimen/padding_4dp</item>
+        <item name="backgroundTint">@color/white</item>
+        <item name="rippleColor">@color/colorPrimaryDark</item>
+    </style>
 </resources>
