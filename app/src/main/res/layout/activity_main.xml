@@ -4,15 +4,64 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:background="@color/white">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="24dp"
+            android:paddingBottom="24dp"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp">
+
+            <TextView
+                android:id="@+id/tv_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                android:text="@string/button"
+                android:textSize="@dimen/textAppearanceHeadline5"/>
+
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@id/tv_button"
+                app:layout_constraintStart_toStartOf="parent"
+                android:text="@string/button"
+                android:layout_marginTop="16dp"
+                android:layout_marginStart="16dp"/>
+
+            <Button
+                android:id="@+id/button2"
+                style="@style/Widget.MaterialComponents.Button.TextButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/button"
+                app:layout_constraintTop_toBottomOf="@id/tv_button"
+                app:layout_constraintStart_toEndOf="@id/button1"
+                app:layout_constraintEnd_toStartOf="@id/button3"
+                android:layout_marginTop="16dp"/>
+
+            <Button
+                android:id="@+id/button3"
+                style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/button"
+                app:layout_constraintTop_toBottomOf="@id/tv_button"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="16dp"/>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </ScrollView>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
