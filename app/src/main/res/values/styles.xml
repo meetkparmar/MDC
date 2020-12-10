@@ -1,12 +1,59 @@
 <resources>
 
     <!-- Base application theme. -->
-    <style name="AppTheme" parent="Theme.MaterialComponents.Light.DarkActionBar">
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
         <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
+
+        <item name="materialButtonStyle"> @style/Button.Outlined</item>
+        <item name="android:textColor"> @color/colorPrimaryLight</item>
+        <item name="android:textViewStyle"> @style/TextStyle</item>
+        <item name="android:editTextColor">@color/colorPrimary</item>
+        <item name="materialCardViewStyle">@style/card</item>
     </style>
 
+    <style name="Button.Outlined" parent="TextButton">
+        <item name="android:paddingLeft">@dimen/padding_8dp</item>
+        <item name="android:paddingRight">@dimen/padding_8dp</item>
+        <item name="strokeColor">@color/colorPrimaryLight</item>
+        <item name="strokeWidth">1dp</item>
+        <item name="android:clickable">true</item>
+        <item name="android:focusable">true</item>
+        <item name="rippleColor">@color/colorPrimary</item>
+    </style>
+
+    <style name="TextStyle">
+        <item name="android:textColor">@color/colorAccent</item>
+        <item name="android:textSize">16sp</item>
+        <item name="textAllCaps">true</item>
+    </style>
+
+    <style name="TextButton">
+        <item name="android:textColor">#010101</item>
+        <item name="android:paddingLeft">@dimen/margin_8dp</item>
+        <item name="android:paddingRight">@dimen/margin_8dp</item>
+        <item name="iconTint">@color/white</item>
+        <item name="iconPadding">@dimen/padding_4dp</item>
+        <item name="android:backgroundTint">@color/white</item>
+        <item name="rippleColor">@color/colorPrimaryDark</item>
+        <item name="android:textSize">24dp</item>
+    </style>
+
+    <style name="editText">
+        <item name="textAllCaps">true</item>
+        <item name="backgroundTint">@color/colorAccent</item>
+        <item name="android:textColor">@color/colorPrimaryLight</item>
+        <item name="android:textSize">48dp</item>
+    </style>
+
+    <style name="card">
+        <item name="android:backgroundTint">@color/colorPrimaryLight</item>
+        <item name="cardElevation">8dp</item>
+        <item name="cardMaxElevation">16dp</item>
+        <item name="cardCornerRadius">8dp</item>
+        <item name="android:padding">@dimen/padding_16dp</item>
+    </style>
 
 </resources>
