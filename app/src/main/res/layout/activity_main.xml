@@ -25,7 +25,7 @@
                 app:layout_constraintTop_toTopOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 android:text="@string/button"
-                android:textSize="@dimen/textAppearanceHeadline5"/>
+                style="@style/TextAppearance.HeadLine6"/>
 
             <Button
                 android:id="@+id/button1"

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="materialButtonStyle">@style/Button</item>
+        <item name="editTextStyle">@style/editText</item>
+        <item name="materialCardViewStyle">@style/cardView</item>
+
+        <!--Typography-->
+        <item name="textAppearanceHeadline1">@style/TextAppearance.HeadLine1</item>
+        <item name="textAppearanceHeadline2">@style/TextAppearance.HeadLine2</item>
+        <item name="textAppearanceHeadline3">@style/TextAppearance.HeadLine3</item>
+        <item name="textAppearanceHeadline4">@style/TextAppearance.HeadLine4</item>
+        <item name="textAppearanceHeadline5">@style/TextAppearance.HeadLine5</item>
+        <item name="textAppearanceHeadline6">@style/TextAppearance.HeadLine6</item>
+        <item name="textAppearanceSubtitle1">@style/TextAppearance.Subtitle1</item>
+        <item name="textAppearanceSubtitle2">@style/TextAppearance.Subtitle2</item>
+        <item name="textAppearanceButton">@style/TextAppearance.Button</item>
+    </style>
+</resources>
