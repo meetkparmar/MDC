@@ -7,38 +7,66 @@
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
 
-        <item name="materialButtonStyle"> @style/ButtonStyle</item>
-        <item name="android:textViewStyle"> @style/TextStyle</item>
+        <item name="materialButtonStyle">@style/Button.OutlinedButton</item>
+        <item name="android:textViewStyle">@style/TextAppearance</item>
         <item name="editTextStyle">@style/editText</item>
-        <item name="materialCardViewStyle">@style/card</item>
+        <item name="materialCardViewStyle">@style/cardView</item>
+
+        <item name="textAppearanceHeadline1">@style/TextAppearance.HeadLine1</item>
+        <item name="textAppearanceHeadline6">@style/TextAppearance.HeadLine6</item>
+        <item name="textAppearanceButton">@style/TextAppearance.Button</item>
     </style>
 
-    <style name="TextStyle">
+    <style name="TextAppearance.HeadLine1" parent="TextAppearance">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">96sp</item>
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+    </style>
+
+    <style name="TextAppearance.HeadLine6" parent="TextAppearance">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+    </style>
+
+    <style name="TextAppearance.Button" parent="TextAppearance">
+        <item name="android:textSize">14sp</item>
+        <item name="textAllCaps">true</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TextAppearance">
         <item name="android:textColor">@color/black</item>
         <item name="android:textSize">16sp</item>
-        <item name="android:textStyle">italic</item>
+        <item name="android:textStyle">normal</item>
     </style>
 
-    <style name="ButtonStyle">
+    <style name="Button" parent="Button.TextButton">
         <item name="backgroundTint">@color/colorAccent</item>
-        <item name="android:textSize">14sp</item>
-        <item name="android:textStyle">bold</item>
         <item name="android:clickable">true</item>
         <item name="android:focusable">true</item>
-        <item name="cornerRadius">4dp</item>
-        <item name="android:padding">8dp</item>
         <item name="android:textColor">@color/white</item>
-        <item name="textAllCaps">true</item>
     </style>
 
-    <style name="editText" parent="Widget.AppCompat.EditText">
+    <style name="Button.OutlinedButton" parent="Button.TextButton">
+        <item name="strokeColor">@color/colorPrimary</item>
+        <item name="strokeWidth">1dp</item>
+    </style>
+
+    <style name="Button.TextButton" parent="TextAppearance.Button">
+        <item name="android:padding">8dp</item>
+        <item name="cornerRadius">4dp</item>
+        <item name="backgroundTint">@color/white</item>
+        <item name="android:textColor">@color/colorAccent</item>
+    </style>
+
+    <style name="editText" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
         <item name="android:inputType">textCapSentences</item>
         <item name="backgroundTint">@color/black</item>
         <item name="android:textColor">@color/colorPrimaryDark</item>
         <item name="android:textSize">14sp</item>
     </style>
 
-    <style name="card">
+    <style name="cardView">
         <item name="android:backgroundTint">@color/colorPrimary</item>
         <item name="cardElevation">8dp</item>
         <item name="cardMaxElevation">16dp</item>
