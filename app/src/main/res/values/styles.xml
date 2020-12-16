@@ -20,10 +20,10 @@
         <item name="rippleColor">@color/colorPrimary</item>
     </style>
 
-    <!--EditText-->
-    <style name="Widget.App.TextInputLayout" parent="Widget.MaterialComponents.TextInputLayout.FilledBox">
+    <!--TextInputLayout-->
+    <style name="Widget.App.TextInputLayout" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
         <item name="materialThemeOverlay">@style/ThemeOverlay.App.TextInputLayout</item>
-        <item name="boxBackgroundColor">@color/colorAccent</item>
+<!--        <item name="boxBackgroundColor">@color/material_on_background_disabled</item>-->
         <item name="android:inputType">textCapSentences</item>
         <item name="android:textSize">14sp</item>
     </style>

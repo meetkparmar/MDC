@@ -5,4 +5,5 @@
     <string name="fabs">Fabs</string>
     <string name="text_fields">Text Fields</string>
     <string name="cards">Cards</string>
+    <string name="label">Label</string>
 </resources>
