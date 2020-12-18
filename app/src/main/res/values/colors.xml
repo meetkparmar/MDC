@@ -1,10 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimaryLight">#FFBB86FC</color>
-    <color name="colorPrimary">#FF6200EE</color>
-    <color name="colorPrimaryDark">#FF3700B3</color>
-    <color name="colorAccent">#FF03DAC5</color>
-    <color name="colorAccentDark">#FF018786</color>
+    <!--AppTheme1-->
+    <color name="colorPrimaryLight">#4A6572</color>
+    <color name="colorPrimary">#344955</color>
+    <color name="colorPrimaryDark">#232F34</color>
+    <color name="colorAccent">#F9AA33</color>
+    <color name="colorAccentDark">#C67906</color>
+    <color name="colorAccentLight">#FAC16B</color>
     <color name="black">#000000</color>
     <color name="white">#FFFFFF</color>
+    <color name="grey">#A6A6A6</color>
+
+    <!--AppTheme2-->
+    <color name="colorPrimaryLight2">#99CCFF</color>
+    <color name="colorPrimary2">#3399FF</color>
+    <color name="colorPrimaryDark2">#004080</color>
+    <color name="colorAccent2">#FFFF00</color>
+    <color name="colorAccentDark2">#CCCC00</color>
+    <color name="colorAccentLight2">#FFFFB3</color>
 </resources>

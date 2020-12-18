@@ -1,48 +1,57 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!--Typography-->
+    <!--AppTheme1-->
     <style name="TextAppearance.HeadLine1" parent="TextAppearance.MaterialComponents.Headline1">
-        <item name="fontFamily">@font/righteous</item>
-        <item name="android:fontFamily">@font/righteous</item>
+        <item name="fontFamily">@font/abhaya_libre</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:fontFamily">@font/abhaya_libre</item>
     </style>
 
     <style name="TextAppearance.HeadLine2" parent="TextAppearance.MaterialComponents.Headline2">
-        <item name="fontFamily">@font/righteous</item>
-        <item name="android:fontFamily">@font/righteous</item>
+        <item name="fontFamily">@font/abhaya_libre</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:fontFamily">@font/abhaya_libre</item>
     </style>
 
     <style name="TextAppearance.HeadLine3" parent="TextAppearance.MaterialComponents.Headline3">
-        <item name="fontFamily">@font/righteous</item>
-        <item name="android:fontFamily">@font/righteous</item>
+        <item name="fontFamily">@font/abhaya_libre</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:fontFamily">@font/abhaya_libre</item>
     </style>
 
     <style name="TextAppearance.HeadLine4" parent="TextAppearance.MaterialComponents.Headline4">
-        <item name="fontFamily">@font/righteous</item>
-        <item name="android:fontFamily">@font/righteous</item>
+        <item name="fontFamily">@font/abhaya_libre</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:fontFamily">@font/abhaya_libre</item>
     </style>
 
     <style name="TextAppearance.HeadLine5" parent="TextAppearance.MaterialComponents.Headline5">
-        <item name="fontFamily">@font/righteous</item>
-        <item name="android:fontFamily">@font/righteous</item>
+        <item name="fontFamily">@font/abhaya_libre</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:fontFamily">@font/abhaya_libre</item>
     </style>
 
     <style name="TextAppearance.HeadLine6" parent="TextAppearance.MaterialComponents.Headline6">
-        <item name="fontFamily">@font/righteous</item>
-        <item name="android:fontFamily">@font/righteous</item>
+        <item name="fontFamily">@font/abhaya_libre</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:fontFamily">@font/abhaya_libre</item>
     </style>
 
     <style name="TextAppearance.Subtitle1" parent="TextAppearance.MaterialComponents.Subtitle1">
-        <item name="fontFamily">@font/righteous</item>
-        <item name="android:fontFamily">@font/righteous</item>
+        <item name="fontFamily">@font/abhaya_libre</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:fontFamily">@font/abhaya_libre</item>
     </style>
 
     <style name="TextAppearance.Subtitle2" parent="TextAppearance.MaterialComponents.Subtitle2">
-        <item name="fontFamily">@font/righteous</item>
-        <item name="android:fontFamily">@font/righteous</item>
+        <item name="fontFamily">@font/abhaya_libre</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:fontFamily">@font/abhaya_libre</item>
     </style>
 
     <style name="TextAppearance.Button" parent="TextAppearance.MaterialComponents.Button">
-        <item name="fontFamily">@font/righteous</item>
-        <item name="android:fontFamily">@font/righteous</item>
+        <item name="fontFamily">@font/abhaya_libre</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:fontFamily">@font/abhaya_libre</item>
     </style>
 </resources>
