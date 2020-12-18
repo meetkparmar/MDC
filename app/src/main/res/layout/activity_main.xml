@@ -39,7 +39,7 @@
 
             <TextView
                 android:id="@+id/tv_button"
-                style="@style/TextAppearance.HeadLine4"
+                style="?attr/textAppearanceHeadline4"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/button"
@@ -57,8 +57,8 @@
 
             <Button
                 android:id="@+id/button2"
-                style="@style/Widget.App.Button.OutlinedButton"
                 android:layout_width="wrap_content"
+                style="?attr/materialButtonStyle.OutlinedButton"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="16dp"
                 android:text="@string/button"
@@ -68,7 +68,7 @@
 
             <Button
                 android:id="@+id/button3"
-                style="@style/Widget.App.Button.TextButton"
+                style="?attr/materialButtonStyle.TextButton"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="16dp"
@@ -78,7 +78,7 @@
 
             <TextView
                 android:id="@+id/textField"
-                style="@style/TextAppearance.HeadLine4"
+                style="?attr/textAppearanceHeadline4"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/margin_16dp"
@@ -102,7 +102,7 @@
 
             <com.google.android.material.textfield.TextInputLayout
                 android:id="@+id/inputTextLayout2"
-                style="@style/Widget.App.TextInputLayout.FilledBox"
+                style="?attr/textInputLayout.FilledBox"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/margin_16dp"
@@ -118,7 +118,7 @@
 
             <TextView
                 android:id="@+id/cards"
-                style="@style/TextAppearance.HeadLine4"
+                style="?attr/textAppearanceHeadline4"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/margin_16dp"
@@ -141,7 +141,7 @@
                     android:orientation="vertical">
 
                     <TextView
-                        style="@style/TextAppearance.HeadLine5"
+                        style="?attr/textAppearanceHeadline5"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="@dimen/margin_16dp"
@@ -149,7 +149,7 @@
                         android:text="@string/title" />
 
                     <TextView
-                        style="@style/TextAppearance.Subtitle1"
+                        style="?attr/textAppearanceSubtitle1"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="@dimen/margin_16dp"
@@ -163,7 +163,7 @@
 
             <TextView
                 android:id="@+id/chips"
-                style="@style/TextAppearance.HeadLine4"
+                style="?attr/textAppearanceHeadline4"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/margin_16dp"
@@ -202,7 +202,7 @@
 
             <TextView
                 android:id="@+id/textAppearance"
-                style="@style/TextAppearance.HeadLine4"
+                style="?attr/textAppearanceHeadline4"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="@dimen/margin_16dp"
@@ -212,7 +212,7 @@
 
             <TextView
                 android:id="@+id/heading1"
-                style="@style/TextAppearance.HeadLine1"
+                style="?attr/textAppearanceHeadline1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/margin_8dp"
@@ -223,7 +223,7 @@
 
             <TextView
                 android:id="@+id/heading2"
-                style="@style/TextAppearance.HeadLine2"
+                style="?attr/textAppearanceHeadline2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/margin_8dp"
@@ -234,7 +234,7 @@
 
             <TextView
                 android:id="@+id/heading3"
-                style="@style/TextAppearance.HeadLine3"
+                style="?attr/textAppearanceHeadline3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/margin_8dp"
@@ -245,7 +245,7 @@
 
             <TextView
                 android:id="@+id/heading4"
-                style="@style/TextAppearance.HeadLine4"
+                style="?attr/textAppearanceHeadline4"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/margin_8dp"
@@ -256,7 +256,7 @@
 
             <TextView
                 android:id="@+id/heading5"
-                style="@style/TextAppearance.HeadLine5"
+                style="?attr/textAppearanceHeadline5"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/margin_8dp"
@@ -267,7 +267,7 @@
 
             <TextView
                 android:id="@+id/heading6"
-                style="@style/TextAppearance.HeadLine6"
+                style="?attr/textAppearanceHeadline6"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/margin_8dp"
@@ -278,7 +278,7 @@
 
             <TextView
                 android:id="@+id/subtitle1"
-                style="@style/TextAppearance.Subtitle1"
+                style="?attr/textAppearanceSubtitle1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/margin_8dp"
@@ -289,7 +289,7 @@
 
             <TextView
                 android:id="@+id/subtitle2"
-                style="@style/TextAppearance.Subtitle2"
+                style="?attr/textAppearanceSubtitle2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/margin_8dp"

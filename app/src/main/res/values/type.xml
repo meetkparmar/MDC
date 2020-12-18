@@ -54,4 +54,115 @@
         <item name="android:textColor">@color/black</item>
         <item name="android:fontFamily">@font/abhaya_libre</item>
     </style>
+
+    <!--AppTheme2-->
+    <style name="TextAppearance.AppTheme2.HeadLine1" parent="TextAppearance.MaterialComponents.Headline1">
+        <item name="fontFamily">@font/ribeye</item>
+        <item name="android:textColor">@color/greyDark</item>
+        <item name="android:fontFamily">@font/ribeye</item>
+    </style>
+
+    <style name="TextAppearance.AppTheme2.HeadLine2" parent="TextAppearance.MaterialComponents.Headline2">
+        <item name="fontFamily">@font/ribeye</item>
+        <item name="android:textColor">@color/greyDark</item>
+        <item name="android:fontFamily">@font/ribeye</item>
+    </style>
+
+    <style name="TextAppearance.AppTheme2.HeadLine3" parent="TextAppearance.MaterialComponents.Headline3">
+        <item name="fontFamily">@font/ribeye</item>
+        <item name="android:textColor">@color/greyDark</item>
+        <item name="android:fontFamily">@font/ribeye</item>
+    </style>
+
+    <style name="TextAppearance.AppTheme2.HeadLine4" parent="TextAppearance.MaterialComponents.Headline4">
+        <item name="fontFamily">@font/ribeye</item>
+        <item name="android:textColor">@color/greyDark</item>
+        <item name="android:fontFamily">@font/ribeye</item>
+    </style>
+
+    <style name="TextAppearance.AppTheme2.HeadLine5" parent="TextAppearance.MaterialComponents.Headline5">
+        <item name="fontFamily">@font/ribeye</item>
+        <item name="android:textColor">@color/greyDark</item>
+        <item name="android:fontFamily">@font/ribeye</item>
+    </style>
+
+    <style name="TextAppearance.AppTheme2.HeadLine6" parent="TextAppearance.MaterialComponents.Headline6">
+        <item name="fontFamily">@font/ribeye</item>
+        <item name="android:textColor">@color/greyDark</item>
+        <item name="android:fontFamily">@font/ribeye</item>
+    </style>
+
+    <style name="TextAppearance.AppTheme2.Subtitle1" parent="TextAppearance.MaterialComponents.Subtitle1">
+        <item name="fontFamily">@font/ribeye</item>
+        <item name="android:textColor">@color/greyDark</item>
+        <item name="android:fontFamily">@font/ribeye</item>
+    </style>
+
+    <style name="TextAppearance.AppTheme2.Subtitle2" parent="TextAppearance.MaterialComponents.Subtitle2">
+        <item name="fontFamily">@font/ribeye</item>
+        <item name="android:textColor">@color/greyDark</item>
+        <item name="android:fontFamily">@font/ribeye</item>
+    </style>
+
+    <style name="TextAppearance.AppTheme2.Button" parent="TextAppearance.MaterialComponents.Button">
+        <item name="fontFamily">@font/ribeye</item>
+        <item name="android:textColor">@color/greyDark</item>
+        <item name="android:fontFamily">@font/ribeye</item>
+    </style>
+
+
+    <!--AppTheme2-->
+    <style name="TextAppearance.AppTheme3.HeadLine1" parent="TextAppearance.MaterialComponents.Headline1">
+        <item name="fontFamily">@font/spirax</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:fontFamily">@font/spirax</item>
+    </style>
+
+    <style name="TextAppearance.AppTheme3.HeadLine2" parent="TextAppearance.MaterialComponents.Headline2">
+        <item name="fontFamily">@font/spirax</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:fontFamily">@font/spirax</item>
+    </style>
+
+    <style name="TextAppearance.AppTheme3.HeadLine3" parent="TextAppearance.MaterialComponents.Headline3">
+        <item name="fontFamily">@font/spirax</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:fontFamily">@font/spirax</item>
+    </style>
+
+    <style name="TextAppearance.AppTheme3.HeadLine4" parent="TextAppearance.MaterialComponents.Headline4">
+        <item name="fontFamily">@font/spirax</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:fontFamily">@font/spirax</item>
+    </style>
+
+    <style name="TextAppearance.AppTheme3.HeadLine5" parent="TextAppearance.MaterialComponents.Headline5">
+        <item name="fontFamily">@font/spirax</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:fontFamily">@font/spirax</item>
+    </style>
+
+    <style name="TextAppearance.AppTheme3.HeadLine6" parent="TextAppearance.MaterialComponents.Headline6">
+        <item name="fontFamily">@font/spirax</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:fontFamily">@font/spirax</item>
+    </style>
+
+    <style name="TextAppearance.AppTheme3.Subtitle1" parent="TextAppearance.MaterialComponents.Subtitle1">
+        <item name="fontFamily">@font/spirax</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:fontFamily">@font/spirax</item>
+    </style>
+
+    <style name="TextAppearance.AppTheme3.Subtitle2" parent="TextAppearance.MaterialComponents.Subtitle2">
+        <item name="fontFamily">@font/spirax</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:fontFamily">@font/spirax</item>
+    </style>
+
+    <style name="TextAppearance.AppTheme3.Button" parent="TextAppearance.MaterialComponents.Button">
+        <item name="fontFamily">@font/spirax</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:fontFamily">@font/spirax</item>
+    </style>
 </resources>

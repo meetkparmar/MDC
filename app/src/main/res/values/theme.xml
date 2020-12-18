@@ -7,7 +7,10 @@
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
         <item name="materialButtonStyle">@style/Widget.App.Button</item>
+        <item name="materialButtonStyle.OutlinedButton">@style/Widget.App.Button.OutlinedButton</item>
+        <item name="materialButtonStyle.TextButton">@style/Widget.App.Button.TextButton</item>
         <item name="textInputStyle">@style/Widget.App.TextInputLayout.OutlinedBox</item>
+        <item name="textInputLayout.FilledBox">@style/Widget.App.TextInputLayout.FilledBox</item>
         <item name="materialCardViewStyle">@style/Widget.App.CardView</item>
         <item name="chipStyle">@style/Widget.App.Chip</item>
         <!--Typography-->
@@ -20,5 +23,55 @@
         <item name="textAppearanceSubtitle1">@style/TextAppearance.Subtitle1</item>
         <item name="textAppearanceSubtitle2">@style/TextAppearance.Subtitle2</item>
         <item name="textAppearanceButton">@style/TextAppearance.Button</item>
+    </style>
+
+    <!--    AppTheme2-->
+    <style name="AppTheme2" parent="AppTheme">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary2</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark2</item>
+        <item name="colorAccent">@color/colorAccent2</item>
+        <item name="materialButtonStyle">@style/Widget.App.AppTheme2.Button</item>
+        <item name="materialButtonStyle.OutlinedButton">@style/Widget.App.Button.AppTheme2.OutlinedButton</item>
+        <item name="materialButtonStyle.TextButton">@style/Widget.App.Button.AppTheme2.TextButton</item>
+        <item name="textInputStyle">@style/Widget.App.TextInputLayout.AppTheme2.OutlinedBox</item>
+        <item name="textInputLayout.FilledBox">@style/Widget.App.TextInputLayout.AppTheme2.FilledBox</item>
+        <item name="materialCardViewStyle">@style/Widget.App.AppTheme2.CardView</item>
+        <item name="chipStyle">@style/Widget.App.AppTheme2.Chip</item>
+        <!--Typography-->
+        <item name="textAppearanceHeadline1">@style/TextAppearance.AppTheme2.HeadLine1</item>
+        <item name="textAppearanceHeadline2">@style/TextAppearance.AppTheme2.HeadLine2</item>
+        <item name="textAppearanceHeadline3">@style/TextAppearance.AppTheme2.HeadLine3</item>
+        <item name="textAppearanceHeadline4">@style/TextAppearance.AppTheme2.HeadLine4</item>
+        <item name="textAppearanceHeadline5">@style/TextAppearance.AppTheme2.HeadLine5</item>
+        <item name="textAppearanceHeadline6">@style/TextAppearance.AppTheme2.HeadLine6</item>
+        <item name="textAppearanceSubtitle1">@style/TextAppearance.AppTheme2.Subtitle1</item>
+        <item name="textAppearanceSubtitle2">@style/TextAppearance.AppTheme2.Subtitle2</item>
+        <item name="textAppearanceButton">@style/TextAppearance.AppTheme2.Button</item>
+    </style>
+
+    <!--    AppTheme3-->
+    <style name="AppTheme3" parent="AppTheme">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary3</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark3</item>
+        <item name="colorAccent">@color/colorAccent3</item>
+        <item name="materialButtonStyle">@style/Widget.App.AppTheme3.Button</item>
+        <item name="materialButtonStyle.OutlinedButton">@style/Widget.App.Button.AppTheme3.OutlinedButton</item>
+        <item name="materialButtonStyle.TextButton">@style/Widget.App.Button.AppTheme3.TextButton</item>
+        <item name="textInputStyle">@style/Widget.App.TextInputLayout.AppTheme3.OutlinedBox</item>
+        <item name="textInputLayout.FilledBox">@style/Widget.App.TextInputLayout.AppTheme3.FilledBox</item>
+        <item name="materialCardViewStyle">@style/Widget.App.AppTheme3.CardView</item>
+        <item name="chipStyle">@style/Widget.App.AppTheme3.Chip</item>
+        <!--Typography-->
+        <item name="textAppearanceHeadline1">@style/TextAppearance.AppTheme3.HeadLine1</item>
+        <item name="textAppearanceHeadline2">@style/TextAppearance.AppTheme3.HeadLine2</item>
+        <item name="textAppearanceHeadline3">@style/TextAppearance.AppTheme3.HeadLine3</item>
+        <item name="textAppearanceHeadline4">@style/TextAppearance.AppTheme3.HeadLine4</item>
+        <item name="textAppearanceHeadline5">@style/TextAppearance.AppTheme3.HeadLine5</item>
+        <item name="textAppearanceHeadline6">@style/TextAppearance.AppTheme3.HeadLine6</item>
+        <item name="textAppearanceSubtitle1">@style/TextAppearance.AppTheme3.Subtitle1</item>
+        <item name="textAppearanceSubtitle2">@style/TextAppearance.AppTheme3.Subtitle2</item>
+        <item name="textAppearanceButton">@style/TextAppearance.AppTheme3.Button</item>
     </style>
 </resources>

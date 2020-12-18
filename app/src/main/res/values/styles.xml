@@ -64,4 +64,134 @@
         <item name="checkedIconVisible">false</item>
     </style>
 
+
+<!--    AppTheme2-->
+    <!--Button-->
+    <style name="Widget.App.AppTheme2.Button" parent="Widget.MaterialComponents.Button">
+        <item name="backgroundTint">@color/colorAccent2</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="cornerRadius">0dp</item>
+        <item name="rippleColor">@color/colorAccentDark2</item>
+    </style>
+
+    <style name="Widget.App.Button.AppTheme2.OutlinedButton" parent="Widget.MaterialComponents.Button.OutlinedButton">
+        <item name="strokeColor">@color/colorAccentDark2</item>
+        <item name="strokeWidth">1dp</item>
+        <item name="cornerRadius">0dp</item>
+        <item name="android:textColor">@color/colorAccent2</item>
+        <item name="rippleColor">@color/colorAccentLight2</item>
+    </style>
+
+    <style name="Widget.App.Button.AppTheme2.TextButton" parent="Widget.MaterialComponents.Button.TextButton">
+        <item name="android:padding">8dp</item>
+        <item name="cornerRadius">0dp</item>
+        <item name="elevation">8dp</item>
+        <item name="backgroundTint">@color/white</item>
+        <item name="android:textColor">@color/colorAccent2</item>
+        <item name="rippleColor">@color/colorAccentLight2</item>
+    </style>
+
+    <!--TextInputLayout-->
+    <style name="Widget.App.TextInputLayout.AppTheme2.OutlinedBox" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="materialThemeOverlay">@style/ThemeOverlay.App.TextInputLayout</item>
+        <item name="android:inputType">textCapSentences</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="ThemeOverlay.App.AppTheme2.TextInputLayout" parent="">
+        <item name="editTextStyle">@style/ThemeOverlay.App.TextInputEditText</item>
+    </style>
+
+    <style name="ThemeOverlay.App.AppTheme2.TextInputEditText" parent="Widget.MaterialComponents.TextInputEditText.FilledBox">
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="Widget.App.TextInputLayout.AppTheme2.FilledBox" parent="Widget.MaterialComponents.TextInputLayout.FilledBox">
+        <item name="materialThemeOverlay">@style/ThemeOverlay.App.TextInputLayout</item>
+        <item name="android:inputType">textCapSentences</item>
+        <item name="boxBackgroundColor">@color/colorAccentLight2</item>
+        <item name="cardCornerRadius">8dp</item>
+    </style>
+
+    <!--CardView-->
+    <style name="Widget.App.AppTheme2.CardView" parent="Widget.MaterialComponents.CardView">
+        <item name="android:backgroundTint">@color/greyLight</item>
+        <item name="cardElevation">4dp</item>
+        <item name="cardCornerRadius">8dp</item>
+    </style>
+
+    <!--Chip-->
+    <style name="Widget.App.AppTheme2.Chip" parent="Widget.MaterialComponents.Chip.Choice">
+        <item name="chipBackgroundColor">@color/grey</item>
+        <item name="chipStrokeColor">@color/colorAccentLight2</item>
+        <item name="checkedIconVisible">false</item>
+    </style>
+
+
+    <!--    AppTheme3-->
+    <!--Button-->
+    <style name="Widget.App.AppTheme3.Button" parent="Widget.MaterialComponents.Button">
+        <item name="backgroundTint">@color/colorPrimary3</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="cornerRadius">16dp</item>
+        <item name="rippleColor">@color/colorPrimaryDark3</item>
+    </style>
+
+    <style name="Widget.App.Button.AppTheme3.OutlinedButton" parent="Widget.MaterialComponents.Button.OutlinedButton">
+        <item name="strokeColor">@color/colorPrimaryDark3</item>
+        <item name="strokeWidth">2dp</item>
+        <item name="cornerRadius">16dp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="rippleColor">@color/colorPrimaryLight3</item>
+    </style>
+
+    <style name="Widget.App.Button.AppTheme3.TextButton" parent="Widget.MaterialComponents.Button.TextButton">
+        <item name="android:padding">8dp</item>
+        <item name="cornerRadius">16dp</item>
+        <item name="elevation">8dp</item>
+        <item name="backgroundTint">@color/white</item>
+        <item name="android:textColor">@color/colorPrimary3</item>
+        <item name="rippleColor">@color/colorPrimaryLight3</item>
+    </style>
+
+    <!--TextInputLayout-->
+    <style name="Widget.App.TextInputLayout.AppTheme3.OutlinedBox" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="materialThemeOverlay">@style/ThemeOverlay.App.TextInputLayout</item>
+        <item name="android:inputType">textCapSentences</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="ThemeOverlay.App.AppTheme3.TextInputLayout" parent="">
+        <item name="editTextStyle">@style/ThemeOverlay.App.TextInputEditText</item>
+    </style>
+
+    <style name="ThemeOverlay.App.AppTheme3.TextInputEditText" parent="Widget.MaterialComponents.TextInputEditText.FilledBox">
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="Widget.App.TextInputLayout.AppTheme3.FilledBox" parent="Widget.MaterialComponents.TextInputLayout.FilledBox">
+        <item name="materialThemeOverlay">@style/ThemeOverlay.App.TextInputLayout</item>
+        <item name="android:inputType">textCapSentences</item>
+        <item name="boxBackgroundColor">@color/colorAccentLight3</item>
+        <item name="cardCornerRadius">16dp</item>
+    </style>
+
+    <!--CardView-->
+    <style name="Widget.App.AppTheme3.CardView" parent="Widget.MaterialComponents.CardView">
+        <item name="android:backgroundTint">@color/greyLight</item>
+        <item name="cardElevation">4dp</item>
+        <item name="cardCornerRadius">16dp</item>
+    </style>
+
+    <!--Chip-->
+    <style name="Widget.App.AppTheme3.Chip" parent="Widget.MaterialComponents.Chip.Choice">
+        <item name="chipBackgroundColor">@color/white</item>
+        <item name="chipStrokeWidth">2dp</item>
+        <item name="chipCornerRadius">8dp</item>
+        <item name="chipStrokeColor">@color/colorAccentLight3</item>
+        <item name="checkedIconVisible">false</item>
+    </style>
+
 </resources>

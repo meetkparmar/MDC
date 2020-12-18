@@ -9,7 +9,9 @@
     <color name="colorAccentLight">#FAC16B</color>
     <color name="black">#000000</color>
     <color name="white">#FFFFFF</color>
+    <color name="greyLight">#F2F2F2</color>
     <color name="grey">#A6A6A6</color>
+    <color name="greyDark">#666666</color>
 
     <!--AppTheme2-->
     <color name="colorPrimaryLight2">#99CCFF</color>
@@ -18,4 +20,12 @@
     <color name="colorAccent2">#FFFF00</color>
     <color name="colorAccentDark2">#CCCC00</color>
     <color name="colorAccentLight2">#FFFFB3</color>
+
+    <!--AppTheme3-->
+    <color name="colorPrimaryLight3">#46739f</color>
+    <color name="colorPrimary3">#0b4870</color>
+    <color name="colorPrimaryDark3">#002144</color>
+    <color name="colorAccent3">#ffbe55</color>
+    <color name="colorAccentDark3">#c88e24</color>
+    <color name="colorAccentLight3">#fff085</color>
 </resources>
